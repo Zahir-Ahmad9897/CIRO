@@ -150,3 +150,16 @@ scrach_prompt.txt
 documentation.txt
 future_production_input_layer.md
 scratch_prompt.txt
+
+# Build artifacts and compiled bundles
+*.bundle
+.bundle-test/
+
+# AI tool configs (not project code)
+.claude/
+CLAUDE.md
+AGENTS.md
+
+# Archives and binaries
+*.zip
+*.exe
